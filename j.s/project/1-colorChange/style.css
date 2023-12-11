@@ -1,0 +1,43 @@
+* {
+  margin-top: 10px;
+}
+nav {
+  background-color: rgb(206, 158, 158);
+  text-align: center;
+  height: 50px;
+  padding-top: 20px;
+}
+nav a {
+  color: white;
+  padding: 10px 20px 20px 30px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.canvas {
+  margin-top: 100px;
+}
+span {
+  background-color: blueviolet;
+  padding: 50px;
+  border: 1px solid black;
+  width: 20px;
+}
+
+#gray {
+  background-color: gray;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+h2 {
+  padding-top: 50px;
+}

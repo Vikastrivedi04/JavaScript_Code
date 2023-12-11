@@ -1,0 +1,26 @@
+javascirpt {
+    =>syncronus
+    =>single threaed
+    }
+
+* Execution Context {
+*=> Each  Operation waits for the last one to complete before Execution
+
+    => Execution one line of code at a time
+    => console.log => 1
+    => console.log =>2
+
+     1. call stack 2. Memory Heab
+}
+
+
+*Blocking Code vs Non blocking Code
+
+  Blocking Code{
+    => block the flow of program
+    => Read File Sync
+  }          
+  Non blocking Code {
+    => does not block Execution
+    => Read File async
+  }

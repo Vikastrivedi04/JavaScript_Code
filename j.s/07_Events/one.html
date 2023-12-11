@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body style="background-color: black; color: #fff">
+    <h1>Event Basic</h1>
+    <ul id="name">
+      <li id="vikas">vikas</li>
+      <li id="milan">milan</li>
+      <li id="Bhavesh">bhavesh</li>
+      <li id="sam">sam</li>
+      <li><a href="" id="Goggle">Goggle</a></li>
+    </ul>
+  </body>
+  <script>
+    // document.getElementById("Bhavesh").onclick = function () {
+    //   alert("bhavesh clicked");
+    // };
+
+    // attachEvent()
+    // jQuery- on
+    // Best
+
+    // type, timestamp, dafaultPrevented,
+    // target, toElement, srcElement, currentTarget,
+    // clientX,clientY, screenX , screenY
+    // altkey, ctrKey, shiftKey, KeyCode
+    // document.getElementById("name").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     console.log("clicked inside the ul");
+    //   },
+    //   false
+    // );
+    // document.getElementById("Bhavesh").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     console.log("Bhavesh clicked");
+    //     e.stopPropagation();
+    //   },
+    //   false
+    // );
+
+    // document.getElementById("Goggle").addEventListener("click", function (e) {
+    //   e.preventDefault();
+    //   e.stopPropagation();
+    //   console.log("google clicked");
+    // });
+
+    document.querySelector("#name").addEventListener("click", function (e) {
+      console.log(e.target);
+      let removeIt = e.target;
+      removeIt.remove();
+    });
+  </script>
+</html>
